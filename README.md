@@ -30,7 +30,7 @@ I am passionate about leveraging **technology to improve healthcare systems** an
 - **Education**: JKUAT University   
 - **Interests**: Software development, Iot systems and ethical hacking 
 - **Contact Form**: For easy collaboration and connection  
-- **CV**: [📄 Download My CV](Howard_CV.pdf) 
+- **CV**: [📄 Download My CV](https://Howardwk.github.io/My_Portfolio/Howard_CV.pdf) 
 
 ---
 
