@@ -44,7 +44,7 @@ This website is live and accessible through GitHub Pages:
 ## 🛠️ Project Phases
 
 ### 1. 📋 Planning
-- Define objectives: Share background, skills, and showcase healthcare-tech passion.
+- Define objectives: Share background, skills.
 - Sketch page layout: Home, About, Projects, Education, Contact Form, CV.
 
 ### 2. 🌐 Creating the HTML File
