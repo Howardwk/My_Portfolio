@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/53cd740d83.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header>
+            <div id="box">
+                <h1 id="head1">My portfolio</h1>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="container">
+                <div class = "icons">
+                    <a href="">
+                        <i class="fa-duotone fa-solid fa-house fa-2x"></i>
+                    </a>
+                    <div class="description">Home </div>
+                </div>
+                <div class = "icons">
+                    <a href="">
+                        <i class="fa-solid fa-user fa-2x"></i>
+                    </a>
+                    <div class="description">Personal </div>
+                </div>
+                <div class = "icons">
+                    <a href="">
+                        <i class="fa-solid fa-phone fa-2x"></i>
+                    </a>
+                        <div class="description">Contact</div>
+                </div>
+            </div>
+        </nav>
+        <main>
+        <!-- About Section -->
+        <section id="about">
+            <h3>About Me</h3>
+            <p>Hi, I'm Howard Wanyeki, a passionate software developer with a love for solving real-world problems using code. I'm particularly drawn to web development, embedded systems, and automation. Curiosity, creativity, and continuous learning fuel my journey in tech.</p>
+        </section>
+
+        <!-- Programming Languages -->
+        <section>
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>C/C++</li>
+                <li>Arduino</li>
+            </ul>
+        </section>
+
+        <!-- Educational Background -->
+        <section>
+            <h3>Education</h3>
+            <p>B.Sc. in Computer and Electronic Engineering, JKUAT University (Ongoing)</p>
+            <div id="box1">
+                <a href="Howard_CV.pdf" download>
+                    <button id="bt1">Download My CV</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Interests -->
+        <section>
+            <h3>Interests</h3>
+            <p>I'm excited about Internet of Things (IoT), open-source projects, ethical hacking, and software optimization. The idea of connecting physical devices to the digital world through IoT fascinates me, especially how it can improve daily life through automation and data-driven decisions. I'm deeply passionate about contributing to open-source communities because they promote collaboration, transparency, and shared learning. Ethical hacking interests me not just as a skillset, but as a way to ensure systems are secure and resilient in a constantly evolving cyber landscape. I'm also intrigued by the challenge of software optimization—finding elegant and efficient solutions to complex problems. Ultimately, I strive to combine technology with creativity and purpose, building tools and systems that are not only functional but also meaningful and impactful.</p>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>IoT Projects:</strong> Perfomed various IoT projects like a smart water irrigation system, a smart light switch system and a two way water pump. <a href="https://github.com/ngugiephy/vulcan-iot-VIs" target="_blank">View Project</a></li>
+                <li><strong>C/C++ project:</strong>Built an engineering unit converter that converts differents scientific units. The unit converter was also hosted on a website. <a href="https://github.com/Structural-GroupSeven/ENGINEERING-UNIT-CONVERTER-PROJECT" target="_blank">View Project</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form action="https://formsubmit.co/wanyehowa7@gmail.com" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Howard Wanyeki]. All rights reserved.</p>
+    </footer>
+    </body>
+</html>

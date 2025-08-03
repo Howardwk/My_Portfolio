@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    background-image: url(joshua-sortino-XMcoTHgNcQA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box{
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+
+}
+
+@keyframes rotate{
+    50%{transform: rotateY(360deg);}
+    
+}
+header{
+    background-color: hsl(0, 1%, 19%);
+    text-align: center;
+    padding: 25px;
+    color: white;
+
+}
+
+main{
+    margin: 20px;
+}
+#head1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin-left: 15px;
+    background-color: hsl(180, 3%, 35%);
+}
+.icons .description{
+    padding: 10px;
+    text-align: center;
+}
+.icons:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+    background-color: rgb(5, 71, 71);
+}
+.icons a{
+    text-decoration: none;
+}
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  background-color: hsl(0, 1%, 58%);
+}
+
+#box1:hover{
+    animation-name: glow;
+    animation-duration: 3s;
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellowgreen;}
+}
+#bt1{
+    border-radius: 5px;
+}
+h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="submit"] {
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
